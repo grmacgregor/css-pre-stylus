@@ -1,0 +1,14 @@
+primaryColor = black
+
+secondaryColor = red
+
+.parent
+    .child
+        color red
+        background-color primaryColor        
+        margin-left 10px
+    color blue
+    &:hover
+        color green
+    @media (min-width 600px)
+        color purple
